@@ -23,7 +23,7 @@ from plant_info import get_plant_info
 BASE_MODEL_DIR = "models"
 
 MODEL_PATHS = {
-    "resnet": os.path.join(BASE_MODEL_DIR, "resnet_finetuned_tf213.keras"),
+    "resnet": os.path.join(BASE_MODEL_DIR, "resnet_finetuned_tf219.keras"),
     "svm": os.path.join(BASE_MODEL_DIR, "qpso_svm_model_finetuned.pkl"),
     "scaler": os.path.join(BASE_MODEL_DIR, "qpso_scaler_finetuned.pkl"),
     "indices": os.path.join(BASE_MODEL_DIR, "selected_indices_finetuned.npy"),
